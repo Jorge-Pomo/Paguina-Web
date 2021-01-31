@@ -1,0 +1,31 @@
+body {
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: peachpuff;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: nowrap;
+}
+
+.menu a {
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu a:hover {
+    background-color: papayawhip;
+    color: black;
+}
+
+.menu a.active {
+    background-color: papayawhip;
+    color: black;
+}
