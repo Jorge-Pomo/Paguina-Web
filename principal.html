@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/menuL.css">
-    <link rel="stylesheet" href="./js/menu-lateral.js">
+    <link rel="stylesheet" href="./css/principal.css">
 </head>
 
 <body>
@@ -23,6 +23,25 @@
 
         <h1>Mi blog</h1>
     </header>
+    
+    <aside>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+                <a href="#">OPC 1</a> 
+                <a href="#">OPC 2</a>
+                <a href="#">OPC 3</a> 
+                <a href="#">OPC 4</a> 
+         </div>
+
+	 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span> 
+
+          <script> 
+                function openNav()
+                    { document.getElementById("mySidenav") .style.width="250px"; } function closeNav()
+                    { document.getElementById("mySidenav") .style.width = "0"; } 
+         </script> 
+
+    </aside>
 
     <main>
         <section>
@@ -32,40 +51,9 @@
 
         </article>
     </main>
-
-    <aside>
-        <div id="sidebar" class="sidebar" style="width: 0px;">
-            <ul class="menu">
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-                <li><a href="#">Opción 4</a></li>
-                <li><a href="#">Opción 5</a></li>
-            </ul>
-        </div>
-        <div id="contenido" style="margin-left: 0px;">
-            <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()" style="display: inline;">≡</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()" style="display: none;">≡</a>
-        </div>
-
-       <!-- Script para cerrar i abrir -->
-        <script>
-            function mostrar() {
-                document.getElementById("sidebar").style.width = "300px";
-                document.getElementById("contenido").style.marginLeft = "300px";
-                document.getElementById("abrir").style.display = "none";
-                document.getElementById("cerrar").style.display = "inline";
-            }
-
-            function ocultar() {
-                document.getElementById("sidebar").style.width = "0";
-                document.getElementById("contenido").style.marginLeft = "0";
-                document.getElementById("abrir").style.display = "inline";
-                document.getElementById("cerrar").style.display = "none";
-            }
-        </script>
-    </aside>
-
+    
     <footer>
 
     </footer>
+    
 </body></html>
