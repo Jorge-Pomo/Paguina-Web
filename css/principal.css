@@ -2,3 +2,21 @@ body {
     font-family: "Segoe UI", sans-serif;
     font-size:100%;
 }
+
+h1 {
+    padding: 1%;
+    text-align: center;
+    margin: 3%;
+}
+
+main .principal{
+    margin: 2% 15%;
+}
+
+section .principal{
+    padding-left: 1.5%;
+    margin-bottom: 2%;
+}
+article .principal{
+    margin-bottom: 4%;
+}

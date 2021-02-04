@@ -1,6 +1,10 @@
 .menu {
     overflow: hidden;
-    background-color: peachpuff;
+    background-color: #CC5801;
+    
+    width: 455px;
+    margin: 0.5%;
+    margin-left: 70%;
     
     display: flex;
     justify-content: flex-end;
@@ -16,11 +20,11 @@
 }
 
 .menu a:hover {
-    background-color: papayawhip;
-    color: black;
+    background-color: saddlebrown;
+    color: #f1f1f1;
 }
 
 .menu a.active {
-    background-color: papayawhip;
-    color: black;
+    background-color: saddlebrown;
+    color: #f1f1f1;
 }
