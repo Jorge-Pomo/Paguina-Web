@@ -1,13 +1,14 @@
 .menu {
     overflow: hidden;
     background-color: #CC5801;
-    
+
     width: 455px;
     margin: 0.5%;
-    margin-left: 70%;
-    
+    float: right;
+
     display: flex;
     justify-content: flex-end;
+    flex-direction: row;
     flex-flow: nowrap;
 }
 

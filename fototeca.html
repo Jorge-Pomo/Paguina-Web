@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>CulturalExchange</title>
-    
+
     <!-- ICONO -->
     <link rel="shortcut icon" href="./img/iconoPrincipal.png" type="image/png">
-    
+
     <!-- BOSTRAP GALERIA -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
@@ -32,6 +32,8 @@
 
     <!-- CABECERA PRINCIPAL -->
     <header>
+        <h1 class="principal">Cultural Exchange</h1>
+
         <nav class="menu">
             <a href="./principal.html"> Inicio </a>
             <a href="#noricia"> Noticia </a>
@@ -41,33 +43,31 @@
             <a href="#contactanos"> Contactanos </a>
         </nav>
 
-        <h1 class="principal">Cultural Exchange</h1>
+        <!-- MENU LATERAL -->
+        <aside>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./fototeca.html">Viena</a>
+                <a href="#">Perugia</a>
+                <a href="./fototeca/munch.html">Munich</a>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+        </aside>
     </header>
 
-    <!-- MENU LATERAL -->
-    <aside>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="./fototeca.html">Viena</a>
-            <a href="#">Perugia</a>
-            <a href="#">Munich</a>
-        </div>
-
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
-    </aside>
-
     <!-- GALERIA -->
-    <section>
+    <section class="fototeca">
         <section class="galleria">
             <div class="container">
                 <div class="row">
