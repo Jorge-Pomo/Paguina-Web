@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>CulturalExchange</title>
-
+    
+    <!-- ICONO -->
     <link rel="shortcut icon" href="./img/iconoPrincipal.png" type="image/png">
+    
+    <!-- BOSTRAP GALERIA -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/menuL.css">
     <link rel="stylesheet" href="./css/principal.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/fototeca.css">
 
+    <!-- NORMALIZE -->
     <link rel="stylesheet" href="./css/normalize.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -21,13 +28,15 @@
 
 <body>
 
+    <!-- https://bootsnipp.com/snippets/GzKKE -->
+
     <!-- CABECERA PRINCIPAL -->
     <header>
         <nav class="menu">
-            <a href="#inicio" class="active"> Inicio </a>
+            <a href="./principal.html"> Inicio </a>
             <a href="#noricia"> Noticia </a>
-            <a href="#viajes"> Viajes </a>
-            <a href="#fototeca"> Fototeca </a>
+            <a href="./viajes.html"> Viajes </a>
+            <a href="./fototeca.html" class="active"> Fototeca </a>
             <a href="#typs"> Typs viajes </a>
             <a href="#contactanos"> Contactanos </a>
         </nav>
@@ -39,10 +48,9 @@
     <aside>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">OPC 1</a>
-            <a href="#">OPC 2</a>
-            <a href="#">OPC 3</a>
-            <a href="#">OPC 4</a>
+            <a href="./fototeca.html">Viena</a>
+            <a href="#">Perugia</a>
+            <a href="#">Munich</a>
         </div>
 
         <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span>
@@ -56,8 +64,77 @@
                 document.getElementById("mySidenav").style.width = "0";
             }
         </script>
-
     </aside>
+
+    <!-- GALERIA -->
+    <section>
+        <section class="galleria">
+            <div class="container">
+                <div class="row">
+                    <br />
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/4.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/2.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/3.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/5.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/7.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/8.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/9.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/11.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/15.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/13.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/14.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/12.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/10.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/6.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="./img/galeria/Viena/1.jpg" class="img-responsive">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
 
     <!-- PIE DE PAGIAN -->
     <div class="footer-clean">
