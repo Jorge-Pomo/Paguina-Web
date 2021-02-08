@@ -1,6 +1,9 @@
-body {
+body{
+    width: 100%;
     font-family: "Segoe UI", sans-serif;
     font-size:100%;
+        background-color: #f5f8f1;
+
 }
 
 h1 {
