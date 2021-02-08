@@ -5,8 +5,9 @@ body {
 
 h1 {
     padding: 1%;
-    text-align: center;
     margin: 3%;
+    text-align: center;
+    font-size: 57px;
 }
 
 main .principal{

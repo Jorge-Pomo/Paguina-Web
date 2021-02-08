@@ -11,15 +11,14 @@
     <!-- BOSTRAP GALERIA -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <!-- ENLACES INTERNOS -->
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/menuL.css">
-    <link rel="stylesheet" href="./css/principal.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/fototeca.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/menuL.css">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/fototeca.css">
 
     <!-- NORMALIZE -->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="../css/normalize.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -28,111 +27,101 @@
 </head>
 
 <body>
+
     <!-- https://bootsnipp.com/snippets/GzKKE -->
 
     <!-- CABECERA PRINCIPAL -->
     <header>
         <h1 class="principal">Cultural Exchange</h1>
-
+        
         <nav class="menu">
-            <a href="./principal.html"> Inicio </a>
-            <a href="./noticias.html"> Noticia </a>
-            <a href="./viajes.html"> Viajes </a>
-            <a href="./fototeca.html" class="active"> Fototeca </a>
+            <a href="../principal.html"> Inicio </a>
+            <a href="../noticias.html"> Noticia </a>
+            <a href="../viajes.html"> Viajes </a>
+            <a href="../fototeca.html" class="active"> Fototeca </a>
             <a href="#typs"> Typs viajes </a>
-            <a href="./contactanos.html"> Contactanos </a>
+            <a href="../contactanos.html"> Contactanos </a>
         </nav>
-
-        <!-- MENU LATERAL -->
-        <aside>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="./fototeca.html">Viena</a>
-                <a href="./fototeca/perugia.html">Perugia</a>
-                <a href="./fototeca/munch.html">Munich</a>
-            </div>
-
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span>
-
-            <script>
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                }
-
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                }
-            </script>
-        </aside>
     </header>
 
+    <!-- MENU LATERAL -->
+    <aside>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../fototeca.html">Viena</a>
+            <a href="./perugia.html">Perugia</a>
+            <a href="./munch.html">Munich</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰ Open</span>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </aside>
+
     <!-- GALERIA -->
-    <section class="fototeca">
+    <section>
         <section class="galleria">
-            <h2 class="tituloFototeca">Viena</h2>
-            <br>
+           <h2 class="tituloFototeca">Perugia</h2>
+           <br>
             <div class="container">
                 <div class="row">
                     <br />
+
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/4.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/1.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/2.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/12.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/3.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/3.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/5.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/4.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/7.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/5.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/8.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/6.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/9.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/8.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/11.jpg" class="img-responsive" alt="img">
-                    </div>
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/15.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/9.jpg" class="img-responsive" alt="img">
                     </div>
 
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/13.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/10.jpg" class="img-responsive" alt="img">
                     </div>
-
+                    
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/14.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/11.jpg" class="img-responsive" alt="img">
                     </div>
-
+                    
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/12.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/2.jpg" class="img-responsive" alt="img">
                     </div>
-
+                    
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/10.jpg" class="img-responsive" alt="img">
+                        <img src="../img/galeria/Perugia/13.jpg" class="img-responsive" alt="img">
                     </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/6.jpg" class="img-responsive" alt="img">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="./img/galeria/Viena/1.jpg" class="img-responsive" alt="img">
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -167,6 +156,7 @@
                             <li><a href="#">Benefits</a></li>
                         </ul>
                     </div>
+
                     <div class="col-lg-3 item social">
                         <a href="#"><i class="icon ion-social-facebook"></i></a>
                         <a href="#"><i class="icon ion-social-twitter"></i></a>
