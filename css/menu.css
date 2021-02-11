@@ -5,7 +5,8 @@
     width: 455px;
     margin: 0.5%;
     float: right;
-
+    
+    /*FlexBox*/
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
