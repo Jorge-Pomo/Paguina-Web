@@ -2,9 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>CulturalExchange</title>
+
+    <link rel="shortcut icon" href="./img/iconoPrincipal.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/menuL.css">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/typsV.css">
+   
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <script src="https://kit.fontawesome.com/8e450c420b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
-</body>
-</html>
+    <!-- CABECERA PRINCIPAL -->
+    <header>
+        <h1 class="principal">Cultural Exchange</h1>
+
+        <nav class="menu">
+            <a href="./principal.html" class="active"> Inicio </a>
+            <a href="./noticias.html"> Noticia </a>
+            <a href="./viajes.html"> Viajes </a>
+            <a href="./fototeca.html"> Fototeca </a>
+            <a href="./paguinaNoEncontrada.htmltyps"> Typs viajes </a>
+            <a href="./contactanos.html"> Contactanos </a>
+        </nav>
+
+        <!-- MENU LATERAL -->
+        <aside>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./paguinaNoEncontrada.html">OPC 1</a>
+                <a href="./paguinaNoEncontrada.html">OPC 2</a>
+                <a href="./paguinaNoEncontrada.html">OPC 3</a>
+                <a href="./paguinaNoEncontrada.html">OPC 4</a>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open">☰</span>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+
+        </aside>
+        <h2 class="N">Typs para viajes</h2>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main>
+        <section>
+           <h5>Aqui te adjunto algunos videos</h5>
+            <article>
+                <iframe width="560" height="315" src="https://vimeo.com/309672452" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+        </section>
+    </main>
+
+    <!-- PIE DE PAGIAN -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li><a href="./paguinaNoEncontrada.html">Web design</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Development</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="./paguinaNoEncontrada.html">Company</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Team</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Legacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Careers</h3>
+                        <ul>
+                            <li><a href="./paguinaNoEncontrada.html">Job openings</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Employee success</a></li>
+                            <li><a href="./paguinaNoEncontrada.html">Benefits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <a href="./paguinaNoEncontrada.html"><i class="icon ion-social-facebook"></i></a>
+                        <a href="./paguinaNoEncontrada.html"><i class="icon ion-social-twitter"></i></a>
+                        <a href="https://github.com/Jorge-Pomo"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="./paguinaNoEncontrada.html"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">CULTURAL EXCHANGE © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body></html>

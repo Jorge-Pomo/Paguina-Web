@@ -2,15 +2,8 @@
         width: 100%;
         font-family: "Segoe UI", sans-serif;
         font-size: 100%;
-
-        /*IMG*/
-        background: hsla(0, 0%, 100%, .3);
-        background-image: url(../img/fondoPantalla/fondo-nubes-cielo-azul-estilo-dibujos-animados-plano-cielo-nube-escena-cielo-nublado-capas_222220-69.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-        
+        background: rgb(34, 193, 195);
+        background: linear-gradient(3deg, rgba(34, 193, 195, 0.4290091036414566) 0%, rgba(255, 255, 255, 0) 57%);
 
     }
 
